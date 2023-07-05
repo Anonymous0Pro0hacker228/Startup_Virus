@@ -9,6 +9,7 @@ You can easily edit it. By default, the file contains the following code:       
    taskkill /F /IM explorer.exe
    shutdown /s /t 1
 `.
+
 Then it will shutdown ur computer.
 
 You can defeat this virus by deleting the .bat file in your Startup folder in safe mod.
